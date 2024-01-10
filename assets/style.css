@@ -49,7 +49,7 @@ header nav ul li{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #00f;
+    background-color: rgb(0, 247, 255);
     border-radius: 30px;
     border: 0;
     cursor: pointer;
@@ -57,7 +57,7 @@ header nav ul li{
 }
 
 .btn-contato button:hover{
-    box-shadow: 0px 0px 8px rgb(6, 6, 248);
+    box-shadow: 0px 0px 8px rgb(0, 247, 255);
     transform: scale(1.05);
     transition: .2s;
 }
@@ -78,7 +78,7 @@ section.topo-do-site .flex{
     font-size: 45px;
 }
 .topo-do-site .txt-topo-site h1 span{
-    color:#00f;
+    color:rgb(0, 247, 255);
     font-size: 90px;    
 }
 .topo-do-site .txt-topo-site p{
@@ -107,18 +107,18 @@ section.topo-do-site .flex{
 /* ESPECIALIDADES*/
 
 section.especialidades{
-    padding: 40px 4%;
+    padding: 80px 4%;
 }
 section.especialidades .flex{
     gap: 60px;
 }
 h2.titulo{
-    color: #fff;
+    color: rgb(0, 247, 255);
     font-size: 30px;
     text-align: center;
 }
 h2.titulo span{
-    color: #00f;
+    color: rgb(0, 247, 255);
     font-size: 30px;
     text-align: center;
 }
@@ -126,6 +126,7 @@ h2.titulo span{
     color: #fff;
     padding: 20px;
     border-radius: 30px;
+    text-align: justify;
 }
 .especialidades .flex{
     display: grid;
@@ -139,7 +140,49 @@ h2.titulo span{
 
 .especialidades .especialidades-box:hover{
     transform: scale(1.05);
-    box-shadow: 0 0 8px #00f;
+    box-shadow: 0 0 8px rgb(0, 247, 255);
     transition: .2s;
 }
 
+
+/*-------- SOBRE -------- */
+
+section.sobre{
+    padding: 80px 4%;
+}
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+.sobre .txt-sobre{
+    color: #fff;
+}
+.sobre .txt-sobre h2{
+    font-size: 38px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.sobre .txt-sobre span{
+    color: rgb(0, 247, 255);
+    display: block;
+}
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
+.sobre .txt-sobre .btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(0, 247, 255);
+    font-size: 30px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.sobre .txt-sobre .btn-social button:hover{
+    
+    box-shadow: 0px 0px 8px rgb(0, 247, 255);
+    transform: scale(1.05);
+    transition: .2s;
+}
