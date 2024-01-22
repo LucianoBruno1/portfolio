@@ -10,6 +10,7 @@
     rel="stylesheet">
     <link rel="shortcut icon" href="../images/logo_transparent.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
     <title>Portfólio Luciano Bruno</title>
 </head>
 <body>
@@ -115,8 +116,6 @@
             </div><!--INTERFACE-->
         </section><!--ESPECIALIDADES-->
 
-
-
         <section class="sobre">
             <div class="interface">
                 <div class="flex">
@@ -137,52 +136,61 @@
             </div><!--INTERFACE-->
         </section><!--SOBRE-->
 
-
         <section class="portfolio">
             <div class="interface">
                 <h2 class="titulo">MEUS <span>PROJETOS</span></h2>
                 <div class="flex">
-                    <div class="img-port" style="background-image: url(../images/chatimage.png);">
+                    <div class="img-port" onclick="abrirDialog('modalDialogChat')" style="background-image: url(../images/chatimage.png);">
+                        <dialog id="modalDialogChat" class="modalDialogChat">
+                            <H1>TESTETESTETESTE</H1><P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iste soluta odit quae aliquid doloribus? Voluptatum id, dignissimos distinctio natus commodi nihil optio, inventore autem consequatur ut non corporis quibusdam.</P></dialog>
                     <div class="overlay">
                         CHAT DISTRIBUÍDO
                     </div><!--OVERLAY-->
                     </div><!--IMG-PORT-->
-                    <div class="img-port" style="background-image: url(../images/machinelearningimage.jpg);">
+                    <div class="img-port" onclick="abrirDialog('modalDialogMachineLearning')" style="background-image: url(../images/machinelearningimage.jpg);">
+                        <dialog id="modalDialogMachineLearning" class="modalDialogMachineLearning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iste soluta odit quae aliquid doloribus? Voluptatum id, dignissimos distinctio natus commodi nihil optio, inventore autem consequatur ut non corporis quibusdam.</dialog>
                         <div class="overlay">
                             APRENDIZAGEM DE MÁQUINA
                         </div>
                     </div><!--IMG-PORT-->
-                    <div class="img-port" style="background-image: url(../images/apieducacaoimage.jpg);">
+                    <div class="img-port" onclick="abrirDialog('modalDialogEducacao')" style="background-image: url(../images/apieducacaoimage.jpg);">
+                        <dialog id="modalDialogEducacao" class="modalDialogEducacao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iste soluta odit quae aliquid doloribus? Voluptatum id, dignissimos distinctio natus commodi nihil optio, inventore autem consequatur ut non corporis quibusdam.</dialog>
                         <div class="overlay">
                             API PLATAFORMA EDUCACIONAL
                         </div>
                     </div><!--IMG-PORT-->
-                    <div class="img-port" style="background-image: url(../images/cinemaifpeimage.jpg);">
+                    <div class="img-port" onclick="abrirDialog('modalDialogCinema')" style="background-image: url(../images/cinemaifpeimage.jpg);">
+                        <dialog id="modalDialogCinema" class="modalDialogCinema">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iste soluta odit quae aliquid doloribus? Voluptatum id, dignissimos distinctio natus commodi nihil optio, inventore autem consequatur ut non corporis quibusdam.</dialog>
                         <div class="overlay">
                             CINEMA IFPE
                         </div>
                     </div><!--IMG-PORT-->
-                    <div class="img-port" style="background-image: url(../images/apiprodutosimage.jpg);">
+                    <div class="img-port" onclick="abrirDialog('modalDialogProdutos')" style="background-image: url(../images/apiprodutosimage.jpg);">
+                        <dialog id="modalDialogProdutos" class="modalDialogProdutos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iste soluta odit quae aliquid doloribus? Voluptatum id, dignissimos distinctio natus commodi nihil optio, inventore autem consequatur ut non corporis quibusdam.</dialog>
                         <div class="overlay">
                             API PRODUTOS
                         </div>
                     </div><!--IMG-PORT-->
-                    <div class="img-port" style="background-image: url(../images/dicasdeviagensimage.jpg);">
+                    <div class="img-port" onclick="abrirDialog('modalDialogViagens')" style="background-image: url(../images/dicasdeviagensimage.jpg);">
+                        <dialog id="modalDialogViagens" class="modalDialogViagens">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iste soluta odit quae aliquid doloribus? Voluptatum id, dignissimos distinctio natus commodi nihil optio, inventore autem consequatur ut non corporis quibusdam.</dialog>
                         <div class="overlay">
                             DICAS DE VIAGENS
                         </div>
                     </div><!--IMG-PORT-->
-                    <div class="img-port" style="background-image: url(../images/iaimage.jpg);">
+                    <div class="img-port" onclick="abrirDialog('modalDialogIA')" style="background-image: url(../images/iaimage.jpg);">
+                        <dialog id="modalDialogIA" class="modalDialogIA">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iste soluta odit quae aliquid doloribus? Voluptatum id, dignissimos distinctio natus commodi nihil optio, inventore autem consequatur ut non corporis quibusdam.</dialog>
                         <div class="overlay">
                             INTELIGÊNCIA ARTIFICIAL
                         </div>
                     </div><!--IMG-PORT-->
-                    <div class="img-port" style="background-image: url(../images/calculadoraimage.jpg);">
+                    <div class="img-port" onclick="abrirDialog('modalDialogCalculadora')" style="background-image: url(../images/calculadoraimage.jpg);">
+                        <dialog id="modalDialogCalculadora" class="modalDialogCalculadora">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iste soluta odit quae aliquid doloribus? Voluptatum id, dignissimos distinctio natus commodi nihil optio, inventore autem consequatur ut non corporis quibusdam.</dialog>
                         <div class="overlay">
                             CALCULADORA COM INTERFACE GRÁFICA
                         </div>
                     </div><!--IMG-PORT-->
-                    <div class="img-port" style="background-image: url(../images/sgbdmercadinhoimage.jpg);">
+                    <div class="img-port" onclick="abrirDialog('modalDialogMercado')" style="background-image: url(../images/sgbdmercadinhoimage.jpg);">
+                        <dialog id="modalDialogMercado" class="modalDialogMercado">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iste soluta odit quae aliquid doloribus? Voluptatum id, dignissimos distinctio natus commodi nihil optio, inventore autem consequatur ut non corporis quibusdam.</dialog>
                         <div class="overlay">
                             SGBD MERCADINHO
                         </div>
@@ -193,6 +201,6 @@
 
         </section><!----PORTFOLIO-->
     </main>
-    
+    <script src="../script/script.js"></script>
 </body>
 </html>
