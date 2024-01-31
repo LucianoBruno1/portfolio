@@ -171,7 +171,7 @@ section.sobre .flex{
     margin: 20px 0;
     text-align: justify;
 }
-.sobre .txt-sobre .btn-social button{
+ .btn-social button{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -181,7 +181,7 @@ section.sobre .flex{
     cursor: pointer;
     margin: 0 5px;
 }
-.sobre .txt-sobre .btn-social button:hover{
+.btn-social button:hover{
     
     box-shadow: 0px 0px 8px rgb(0, 247, 255);
     transform: scale(1.05);
@@ -327,5 +327,42 @@ form .btn-enviar input:hover{
     box-shadow: 0px 0px 8px rgba(0, 247, 255);
     transform: scale(1.05);
     transition: .2s;
+}
 
+
+/*----------------------- RODAPE ---------------------------- */
+
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px rgba(0, 247, 255, 0.295);
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+footer .line-footer{
+    padding: 20px 0;
+}
+
+footer .line-footer p i{
+    color: rgb(0, 247, 255);
+    font-size: 22px;
+    
+
+}
+footer .line-footer p a{
+    color: #fff;
+    margin-left: 10px;
+
+}
+footer .line-footer p a:hover{
+    color: rgb(0, 247, 255);
+    margin-left: 10px;
+    transition: .2s;
+    
+    
+}
+
+.borda{
+    border-top: 2px solid rgb(0, 247, 255);
 }
