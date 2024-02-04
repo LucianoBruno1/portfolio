@@ -77,6 +77,7 @@ section.topo-do-site .flex{
 .topo-do-site h1{
     color: #fff;
     font-size: 45px;
+    line-height: 30px;
 }
 .topo-do-site .txt-topo-site h1 span{
     color:rgb(0, 247, 255);
@@ -352,7 +353,7 @@ footer .line-footer p i{
 }
 footer .line-footer p a{
     color: #fff;
-    margin-left: 10px;
+    
 
 }
 footer .line-footer p a:hover{
@@ -365,4 +366,69 @@ footer .line-footer p a:hover{
 
 .borda{
     border-top: 2px solid rgb(0, 247, 255);
+}
+
+/* ---------------- RESPONSIVIDADE ------------------- */
+
+@media screen and (max-width: 1020px){
+
+    /*header*/
+    .nav-header, .btn-contato{
+        display: none;
+    }
+
+    /*classes gerais*/
+    .flex{
+        flex-direction: column;
+    }
+    /*topo do site*/
+    .topo-do-site h1{
+        font-size: 32px;
+    }
+
+    section.topo-do-site{
+        padding: 20px 8%;
+    }
+
+    section.topo-do-site .flex{
+        gap: 40px;
+    }
+
+    /*PORTFOLIO*/
+    .especialidades .flex{
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+        width: 100%;
+    }
+
+    .portfolio .flex{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        }
+
+    dialog{
+        width: 80%;
+    }
+
+    /*BOTOES REDES SOCIAIS*/
+    .btn-social{
+        text-align: center;
+    }
+
+    footer .flex{
+        text-align: center;
+    }
+
+    footer .flex img{
+        width: 80%;
+    }
+
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 1019px){
+    .portfolio .flex{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
