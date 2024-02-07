@@ -26,6 +26,7 @@ header > .interface{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 header a{
     color: #7d7d7d;
@@ -33,14 +34,16 @@ header a{
     display: inline-block;
     transition: .2s;
 }
-header a:hover{
+header nav.nav-header a:hover{
     color: #fff;
     transform: scale(1.05);
 }
-header nav ul{
+header nav.nav-header ul {
     list-style-type: none;
 }
-header nav ul li{
+
+
+header nav.nav-header ul li{
     display: inline-block;
     padding: 0 40px;
 }
@@ -62,6 +65,77 @@ header nav ul li{
     transform: scale(1.05);
     transition: .2s;
 }
+
+/* ESTILO DO MENU LATERAL */
+
+
+.btn-abrir-menu i{
+    color: rgb(0, 247, 255);
+    font-size: 40px;
+}
+
+.menu-mobile{
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999999999;
+    width: 70%;
+    background-color: #000;
+    width: 0%;
+    overflow: hidden;
+    transition: .4s;
+}
+
+.menu-mobile nav ul{
+    text-align: right;
+
+}
+
+.menu-mobile nav ul li a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px 4%;
+    display: block;
+}
+
+.menu-mobile.abrir-menu{
+    width: 70%;
+}
+
+.menu-mobile.abrir-menu ~ .overlay-menu{
+    display: block;
+}
+
+.menu-mobile nav ul li a:hover{
+    background-color: rgb(0, 247, 255);
+    color: #000;   
+}
+
+.menu-mobile .btn-fechar i{
+    padding: 20px 5%;
+    color: rgb(0, 247, 255);
+}
+
+.menu-mobile .btn-fechar i{
+    color: rgb(0, 247, 255);
+    font-size: 30px;
+
+
+}
+
+.overlay-menu{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 8888;
+    background-color: #000000b0;
+    display: none;
+}
+
 
 /* ESTILO DA AREA MAIN*/
 
@@ -372,6 +446,8 @@ footer .line-footer p a:hover{
 
 @media screen and (max-width: 1020px){
 
+   
+
     /*header*/
     .nav-header, .btn-contato{
         display: none;
@@ -430,5 +506,11 @@ footer .line-footer p a:hover{
 @media screen and (min-width: 700px) and (max-width: 1019px){
     .portfolio .flex{
         grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (min-width: 1020px){
+    .btn-abrir-menu{
+        display: none;
     }
 }
