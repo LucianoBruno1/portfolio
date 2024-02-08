@@ -522,3 +522,66 @@ footer .line-footer p a:hover{
         display: none;
     }
 }
+
+/*-------------- PAGINA DE OBRIGADO ----------------------------- */
+
+.tituloObrigado{
+    
+    color: #fff;
+    width: 40%;
+    height: 75%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    border: solid;
+    background-color: #000000be;
+    border-radius: 20px;   
+}
+
+.tituloObrigado h1{
+    background: linear-gradient(45deg, #00f7ff , #14a7ac    , #95f5fa, #25ecf3);
+    background-size: 400% 100%;
+    animation: degrade 10s linear infinite alternate;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tituloObrigado a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    border: solid;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.tituloObrigado a:hover{
+    background-color: rgb(0, 247, 255);
+    transform: scale(1.05);
+    transition: .2s;
+    color: #000;
+    font-weight: 600;
+}
+
+.imgbackground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes degrade {
+    0%{
+        background-position-x: 0% ;
+    }
+
+    100%{
+        background-position: 400%;
+    }
+}
