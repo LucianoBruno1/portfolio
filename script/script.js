@@ -1,3 +1,9 @@
+function abrirDialog(id) {
+    var modal = document.getElementById(id);
+    modal.showModal();
+}
+
+
 let btnMenu = document.getElementById('btn-menu');
 let menu = document.getElementById('menu-mobile');
 let overlay = document.getElementById('overlay-menu');
