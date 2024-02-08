@@ -344,6 +344,12 @@ dialog h1{
     align-items: center;
 }
 
+dialog p{
+    padding: 20px 2%;
+    text-indent: 10px;
+    text-align: justify;
+}
+
 .flex .img-port{
     display: flex;
     justify-content: center;
