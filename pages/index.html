@@ -12,384 +12,450 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.0/dist/smooth-scroll.polyfills.min.js"></script>
 
-    
-
 
     <title>Portfólio Luciano Bruno</title>
 </head>
 
 <body>
 
-    <header>
-        <div class="interface">
-            <div class="logo">
-                <a href="#">
-                    <img width="150vw" src="../images/logo_transparent.png" alt="Logo Luciano Bruno">
-                </a>
-            </div><!--logo-->
+<header>
+    <div class="interface">
+        <div class="logo">
+            <a href="#">
+                <img width="150vw" src="../images/logo_transparent.png" alt="Logo Luciano Bruno">
+            </a>
+        </div><!--logo-->
 
-            <nav class="nav-header">
+        <nav class="nav-header">
+            <ul>
+                <li><a href="#topo-do-site">Início</a></li>
+                <li><a href="#especialidades">Especialidades</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portfolio">Projetos</a></li>
+            </ul>
+        </nav>
+
+        <div class="btn-contato">
+            <a href="#formulario">
+                <button>Contato</button>
+            </a>
+        </div><!--btn-contato-->
+
+        <div class="btn-abrir-menu" id="btn-menu">
+            <i class="bi bi-list"></i>
+        </div>
+
+        <div class="menu-mobile" id="menu-mobile">
+            <div class="btn-fechar">
+                <i class="bi bi-x-lg"></i>
+            </div>
+
+            <nav>
                 <ul>
                     <li><a href="#topo-do-site">Início</a></li>
                     <li><a href="#especialidades">Especialidades</a></li>
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#portfolio">Projetos</a></li>
+                    <li>
+                        <a href="#">CONTATO</a>
+                    </li>
                 </ul>
             </nav>
 
-            <div class="btn-contato">
-                <a href="#formulario">
-                    <button>Contato</button>
-                </a>
-            </div><!--btn-contato-->
+        </div><!--MENU MOBILE-->
 
-            <div class="btn-abrir-menu" id="btn-menu">
-                <i class="bi bi-list"></i>
-            </div>
+        <div class="overlay-menu" id="overlay-menu">
 
-            <div class="menu-mobile" id="menu-mobile">
-                <div class="btn-fechar">
-                    <i class="bi bi-x-lg"></i>
-                </div>
+        </div>
 
-                <nav>
-                    <ul>
-                        <li><a href="#">Início</a></li>
-                        <li><a href="#">Especialidades</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Projetos</a></li>
-                        <li>
-                            <a href="#">CONTATO</a>
-                        </li>
-                    </ul>
-                </nav>
+</header>
 
-            </div><!--MENU MOBILE-->
-            
-            <div class="overlay-menu" id="overlay-menu">
-
-            </div>
-
-    </header>
-
-    <main>
-        <section class="topo-do-site" id="topo-do-site">
-            <div class="interface">
-                <div class="flex">
-                    <div class="txt-topo-site">
-                        <h1>LUCIANO BRUNO - FULL STACK DEVELOPER<span>.</span></h1>
-                        <p> Sou um desenvolvedor Full Stack que sempre tenta criar experiências digitais incríveis.
-                            Sou comprometido com código limpo, trabalho em equipe e gestão de tempo. Explore meu
-                            portfólio para descobrir alguns projetos feitos de forma individual e em grupo, comprovando
-                            minhas habilidades e comprometimento com o desenvolvimento de sistemas, sejam eles robustos
-                            ou simples.</p>
-                        <div class="btn-contato">
-                            <a href="#formulario">
-                                <button>Entre em contato</button>
-                            </a>
-                        </div>
-                    </div><!--txt-topo-site-->
-
-                    <div class="img-topo-site">
-                        <img width="300px" src="../images/eu.jpg" alt="">
-                    </div><!--img-topo-site-->
-                </div><!--flex-->
-            </div><!--interface-->
-        </section><!--topo-do-site-->
-
-
-
-        <section class="especialidades" id="especialidades">
-            <div class="interface">
-                <h2 class="titulo">MINHAS <br> ESPECIALIDADES.</h2>
-                <div class="flex">
-                    <div class="especialidades-box">
-                        <img width="100px" src="../images/java.png" alt="Logo java">
-                        <h3>JAVA</h3>
-                        <p>O Java é uma linguagem de programação versátil e orientada a objetos, conhecida por sua
-                            portabilidade, permitindo a execução de código em diferentes sistemas.
-                            Amplamente utilizado no desenvolvimento de aplicativos corporativos, móveis e web, Java
-                            oferece robustez e flexibilidade.</p>
-                    </div><!--ESPECIALIDADES--BOX-->
-                    <div class="especialidades-box">
-                        <img width="100px" src="../images/c-sharp.png" alt="Logo csharp">
-                        <h3>C#</h3>
-                        <p>O C# é uma linguagem de programação desenvolvida pela Microsoft, destacando-se no
-                            desenvolvimento de aplicativos Windows e aplicações web. Suportando programação orientada a
-                            objetos e integrando-se ao ecossistema .NET, C# oferece poder e eficiência no
-                            desenvolvimento de software.</p>
-                    </div><!--ESPECIALIDADES--BOX-->
-                    <div class="especialidades-box">
-                        <img width="100px" src="../images/sql.png" alt="Logo sql">
-                        <h3>SQL</h3>
-                        <p>SQL (Structured Query Language) é uma linguagem de programação projetada para gerenciar e
-                            manipular bancos de dados relacionais. Amplamente utilizada em sistemas de gerenciamento de
-                            banco de dados (SGBD), como MySQL, PostgreSQL e Microsoft SQL Server, o SQL é fundamental
-                            para interagir com dados de maneira eficiente.</p>
-                    </div><!--ESPECIALIDADES--BOX-->
-                    <div class="especialidades-box">
-                        <img width="100px" src="../images/html.png" alt="Logo html">
-                        <h3>HTML</h3>
-                        <p>O HTML5 é uma linguagem de marcação essencial para a construção de páginas web modernas.
-                            Introduzindo elementos e recursos avançados, como áudio, vídeo e gráficos, o HTML5
-                            possibilita a criação de aplicações web mais interativas e responsivas.</p>
-                    </div><!--ESPECIALIDADES--BOX-->
-                    <div class="especialidades-box">
-                        <img width="100px" src="../images/css-3.png" alt="Logo css">
-                        <h3>CSS</h3>
-                        <p>O CSS3, por sua vez, é a ferramenta para estilizar documentos HTML. Com recursos avançados de
-                            design, como transições, animações e sombras, o CSS3 é crucial para a criação de layouts
-                            flexíveis e responsivos, proporcionando uma experiência visual aprimorada.</p>
-                    </div><!--ESPECIALIDADES--BOX-->
-                    <div class="especialidades-box">
-                        <img width="100px" src="../images/git.png" alt="Logo git">
-                        <h3>GIT</h3>
-                        <p>O Git, um sistema de controle de versão distribuído, revoluciona a gestão de código-fonte.
-                            Facilitando o rastreamento de alterações em projetos de software, Git promove a colaboração
-                            eficiente entre desenvolvedores.</p>
-                    </div><!--ESPECIALIDADES--BOX-->
-                    <div class="especialidades-box">
-                        <img width="100px" src="../images/github.png" alt="Logo github">
-                        <h3>GITHUB</h3>
-                        <p>O GitHub, como plataforma de hospedagem para repositórios Git, desempenha um papel crucial na
-                            colaboração e na gestão de projetos. Amplamente utilizado para projetos de código aberto,
-                            GitHub é essencial para revisão de código e controle de versão.</p>
-                    </div><!--ESPECIALIDADES--BOX-->
-                    <div class="especialidades-box">
-                        <img width="100px" src="../images/python.png" alt="Logo python">
-                        <h3>PYTHON</h3>
-                        <p>O Python destaca-se como uma linguagem de programação de alto nível e fácil leitura. Ampla em
-                            seu uso, seja no desenvolvimento web, automação, análise de dados ou inteligência
-                            artificial, Python prioriza a legibilidade do código e a produtividade do desenvolvedor.</p>
-                    </div><!--ESPECIALIDADES--BOX-->
-                </div><!--FLEX-->
-            </div><!--INTERFACE-->
-        </section><!--ESPECIALIDADES-->
-
-        <section class="sobre" id="sobre">
-            <div class="interface">
-                <div class="flex">
-                    <div class="img-sobre">
-                        <img width="300px" src="../images/eu.jpg" alt="">
-                    </div>
-                    <div class="txt-sobre">
-                        <h2>Olá, <span>Sou Luciano Bruno!</span></h2>
-                        <p>Tenho 22 anos e atualmente sou estudante de Análise e Desenvolvimento de Sistemas, no Instituto Federal de Pernambuco, Campus Paulista.
-                            Desde criança, sempre fui apaixonado por tecnologia, muito por conta dos jogos digitais, mas também por conta dos avanços tecnológicos que eu assistia nos noticiários.
-                            Eu sempre ficava boquiaberto ao assistir ou ler algo relacionado a tecnologia. Devido a isso, sempre tive o sonho de viver nesse meio.
-                        </p>
-                        <p>Um dos meus maiores sonhos é poder usar a tecnologia para construir ferramentas que possam mudar para melhor a vida das pessoas, impactando no dia a dia de forma a tornar
-                            suas rotinas muito mais agradáveis. A programação é uma fonte infinita de possibilidades que podem ser exploradas das mais diversas formas possíveis, eu quero utilizá-la para
-                            transformar o mundo em um lugar melhor!
-                        </p>
-                        <div class="btn-social">
-                            <a target="_blank"
-                                href="https://www.instagram.com/luciaano_bruno?igsh=MXN0bDNnd2txamd1dA=="><button><i
-                                        class="bi bi-instagram"></i></button></a>
-                            <a target="_blank" href="https://github.com/LucianoBruno1"><button><i
-                                        class="bi bi-github"></i></button></a>
-                            <a target="_blank" href="https://www.linkedin.com/in/luciano-bruno-8b2730235/"><button><i
-                                        class="bi bi-linkedin"></i></button></a>
-                        </div>
-                    </div>
-                </div><!--FLEX-->
-            </div><!--INTERFACE-->
-        </section><!--SOBRE-->
-
-        <section class="portfolio" id="portfolio">
-            <div class="interface">
-                <h2 class="titulo">MEUS <span>PROJETOS</span></h2>
-                <div class="flex">
-                    <div class="img-port" onclick="abrirDialog('modalDialogChat')"
-                        style="background-image: url(../images/chatimage.png);">
-                        <dialog id="modalDialogChat" class="modalDialogChat">
-                            <H1>CHAT DISTRIBUÍDO</H1>
-                            <P>Avaliação da disciplina de Sistemas Distribuídos, API para um chat web desenvolvido com Python, Flask, HTML, CSS, JavaScript e postgresSQL.
-                                Nesta aplicação, é possível inserir um ID de usuário, enviar uma mensagem, apagar uma mensagem pelo ID, visualizar mensagens de usuários através do nome e visualizar
-                                mensagens não lidas<br>
-                                <br><strong>Link para o repositório:</strong> https://github.com/LucianoBruno1/API-SD?tab=readme-ov-file<br>
-                                <strong>Link para acessar a aplicação:</strong> https://api-sc82.onrender.com/.</P>
-                        </dialog>
-                        <div class="overlay">
-                            CHAT DISTRIBUÍDO
-                        </div><!--OVERLAY-->
-                    </div><!--IMG-PORT-->
-                    <div class="img-port" onclick="abrirDialog('modalDialogMachineLearning')"
-                        style="background-image: url(../images/machinelearningimage.jpg);">
-                        <dialog id="modalDialogMachineLearning" class="modalDialogMachineLearning">
-                            <h1>MACHINE LEARNING</h1>
-                        <p>
-                            Projeto desenvolvido utilizando a linguagem Python e o google colab. Neste projeto, carregamos o conjunto de dados
-                            utilizando a biblioteca pandas, verificamos e adotamos estratégias adequadas para tratar possíveis dados ausentes no conjunto de dados,
-                            Realizamos a análise exploratória de cada um dos atributos preditores do conjunto de dados, plotando os gráficos adequados. Fizemos também a divisão adequada
-                            do conjunto de dados em dois subconjuntos: treinamento e testes. Escolhemos 3 algoritmos (MLP, KNN, RANDOM FOREST), dividimos o conjunto de treinamento em dois subconjuntos:
-                            treinamento e validação, para fazer otimização de hiper parâmetros. Em seguida, utilizamos otimização bayesiana para otimizar os hiper parâmetros e, ao final, comparamos os erros e acurácias
-                            dos modelos com e sem a otimização para tirarmos nossas conclusões.<br><br> 
-                            <strong>Link para o repositório:</strong> https://github.com/LucianoBruno1/ProjetoAM <br>
-                            <strong>Link para o colab:</strong> https://colab.research.google.com/github/KacioSilva/ProjetoAM/blob/main/Prova_AM.ipynb
-                        </p>
-                    </dialog>
-                        <div class="overlay">
-                            APRENDIZAGEM DE MÁQUINA
-                        </div>
-                    </div><!--IMG-PORT-->
-                    <div class="img-port" onclick="abrirDialog('modalDialogEducacao')"
-                        style="background-image: url(../images/apieducacaoimage.jpg);">
-                        <dialog id="modalDialogEducacao" class="modalDialogEducacao"><h1>APRENDER MAIS</h1>
-                            <p> 
-                                O Aprender Mais é uma iniciativa desenvolvida como parte da disciplina de Desenvolvimento Web II. Nosso objetivo é criar uma plataforma de educação online inovadora que promova
-                                 o acesso gratuito a aulas postadas pela plataforma através de adminstradores voluntários em diversas áreas de conhecimento. As tecnologias utilizadas neste projeto foram diversas, tais como:
-                                 java 17, Git e GitHub, Spring boot 3, Insomnia, hibernate, mysql, JWT (json web token), spring security, lombok, Auth0, dentre outros.<br> <br> 
-                                 <strong>OBJETIVOS:</strong> Facilitar o Acesso à Educação: Eliminar barreiras tradicionais de acesso à educação, tornando-a acessível independentemente de localização geográfica ou capacidade financeira e
-                                 Empoderar Educadores Voluntários: Capacitar indivíduos a compartilhar conhecimento e habilidades como educadores voluntários, alcançando um público mais amplo. O passo a passo para rodar a aplicação pode ser encontrado na seção read.me do repositório no github.<br> <br>
-                                 <strong>Link para o repositório:</strong> https://github.com/LucianoBruno1/AprenderMais-BackEnd
-
-                            </p>
-                        </dialog>
-                        <div class="overlay">
-                            API PLATAFORMA EDUCACIONAL
-                        </div>
-                    </div><!--IMG-PORT-->
-                    <div class="img-port" onclick="abrirDialog('modalDialogCinema')"
-                        style="background-image: url(../images/cinemaifpeimage.jpg);">
-                        <dialog id="modalDialogCinema" class="modalDialogCinema"><h1>CINEMA IFPE</h1>
-                        <p>
-                            Projeto de gerenciamento de uma sala de cinema. Esta aplicação foi pensada para que fosse rodada em tokens presenciais nos cinemas, nos quais os clientes podem comprar ingressos e lanches.
-                            Neste sistema, o cliente pode comprar ingressos, consultar filmes disponíveis, escolher poltrona(s) e escolher lanches (não obrigatório). Quando o horário do filme é superado, o sistema bloqueia automaticamente a compra de novos
-                            ingressos para aquele dia, resetando também as poltronas para a compra de novos ingressos no dia seguinte. O desenvolvimento da questão do pagamento não foi realizada neste projeto. Assim que o cliente finaliza o "pagamento", é enviado para o cliente um email
-                            contendo informações sobre os ingressos e lanches comprados, bem como valores individuais e total do débito.
-                            Este projeto também possui funções de administrador no qual, com login e senha específicos, o adm pode alterar os filmes em exibição, podendo mudar cartaz, nome, horário, preço dos ingressos e etc. Também é possível alterar 
-                            tudo referente aos lanches e bebidas. Este projeto foi desenvolvido para a disciplina de linguagem de programação orientada a objetos e foram utilizados o java 17, MySQL e MySQL WorkBench para o desenvolvimento desta aplicação. <br> <br>
-                            <strong>Link para o repositório:</strong> https://github.com/LucianoBruno1/CinemaIFPE
-
-                        </p>
-                        </dialog>
-                        <div class="overlay">
-                            CINEMA IFPE
-                        </div>
-                    </div><!--IMG-PORT-->
-                    <div class="img-port" onclick="abrirDialog('modalDialogProdutos')"
-                        style="background-image: url(../images/apiprodutosimage.jpg);">
-                        <dialog id="modalDialogProdutos" class="modalDialogProdutos"><h1>API PRODUTOS</h1>
-                            <p>
-                                API Restful construída com java + spring boot. Um projeto simples para consolidação de estudos.<br><br>
-                                <strong>Link para o repositório:</strong> https://github.com/LucianoBruno1/API_Produtos_SpringBoot
-
-                            </p>
-                        </dialog>
-                        <div class="overlay">
-                            API PRODUTOS
-                        </div>
-                    </div><!--IMG-PORT-->
-                    <div class="img-port" onclick="abrirDialog('modalDialogViagens')"
-                        style="background-image: url(../images/dicasdeviagensimage.jpg);">
-                        <dialog id="modalDialogViagens" class="modalDialogViagens"><h1>SITE DE DICAS DE VIAGENS</h1>
-                            <p>
-                                Projeto criado para a disciplina de Desenvolvimento Web 1, para consolidação de estudos sobre front-end. Site com dicas de viagens para os mais diversos destinos de todos os continentes.
-                                Criado com HTML, CSS e JavaScript. Futuramente, planejo incrementar inúmeras funcionalidades, como registro e login de usuários, um fórum para que os users tirem dúvidas entre si, bem como uma opção para que 
-                                eles coloquem destinos em listas de desejo, dentre várias outras funcionalidades. <br><br>
-                                <strong>Link para o repositório:</strong> https://github.com/LucianoBruno1/Dicas-De-Viagens<br>
-                                <strong>Link para o site:</strong> https://lucianobruno1.github.io/Dicas-De-Viagens/pages/index.html
-                            </p>
-                        </dialog>
-                        <div class="overlay">
-                            DICAS DE VIAGENS
-                        </div>
-                    </div><!--IMG-PORT-->
-                    <div class="img-port" onclick="abrirDialog('modalDialogIA')"
-                        style="background-image: url(../images/iaimage.jpg);">
-                        <dialog id="modalDialogIA" class="modalDialogIA"><h1>INTELIGÊNCIA ARTIFICIAL</h1>
-                            <p>
-                                Este projeto consiste numa análise de dados de um dataset sobre as melhores músicas no spotify entre os anos 2000 e 2023. Foram utilizados 5 algoritmos (Perceptron, KNN, Random Forest, Naive Bayes e MLP) 
-                                para realizar a análise, foram realizados normalização dos dados, bem como separação dos dados de treinamento e teste. <br><br>
-                                <strong>Link para o repositório:</strong> https://github.com/LucianoBruno1/Projeto-IA<br>
-                                <strong>Link para o colab:</strong> https://colab.research.google.com/github/KacioSilva/Projeto-IA/blob/main/Untitled11.ipynb
-
-                            </p>
-                        </dialog>
-                        <div class="overlay">
-                            INTELIGÊNCIA ARTIFICIAL
-                        </div>
-                    </div><!--IMG-PORT-->
-                    <div class="img-port" onclick="abrirDialog('modalDialogCalculadora')"
-                        style="background-image: url(../images/calculadoraimage.jpg);">
-                        <dialog id="modalDialogCalculadora" class="modalDialogCalculadora"><h1>CALCULADORA COM INTERFACE GRÁFICA</h1>
-                        <p>
-                            Projeto simples e funcional para consolidação de estudos sobre java básico + biblioteca Swing.<br><br>
-                            <strong>Link para o repositório:</strong> https://github.com/LucianoBruno1/CalculadoraComInterface
-                        </p>
-                        </dialog>
-                        <div class="overlay">
-                            CALCULADORA
-                        </div>
-                    </div><!--IMG-PORT-->
-                    <div class="img-port" onclick="abrirDialog('modalDialogMercado')"
-                        style="background-image: url(../images/sgbdmercadinhoimage.jpg);">
-                        <dialog id="modalDialogMercado" class="modalDialogMercado"><h1>SGBD MERCADINHO</h1>
-                            <p>
-                                Este SGBD consiste num banco de dados de um mercadinho de pequeno porte. Este database possui 4 departamentos, sendo eles: RH, Financeir, Almoxarifado e Segurança. 
-                                Dentro desses departamentos, estarão alocados alguns funcionários de acordo com a sua funcionalidade. Este mercado terá a funcionalidade de cadastrar clientes. 
-                                Os clientes, por sua vez, poderão realizar compras. Dentro das compras, haverá produtos. Os produtos serão fornecidos por algum fornecedor. <br><br>
-                                <strong>Link para o repositório:</strong> https://github.com/LucianoBruno1/Projeto-Banco-De-Dados-MercadinhoIF?tab=readme-ov-file <br><br> <strong>OBS: </strong> O dashboard que pode ser acessado pelo read.me do repositório 
-                                não está funcionando pois o serviço que utilizamos para hospedar o SGBD na nuvem (heroku) excluiu o projeto automaticamente, por termos utilizado o plano gratuíto para tal.
-                            </p>
-                        </dialog>
-                        <div class="overlay">
-                            SGBD MERCADINHO
-                        </div>
-                    </div><!--IMG-PORT-->
-
-                </div><!---FLEX-->
-            </div><!--INTERFACE-->
-
-        </section><!----PORTFOLIO-->
-
-
-        <section class="formulario" id="formulario">
-            <div class="interface">
-                <h2 class="titulo">FALA COMIGO</h2>
-
-                <form action="https://formsubmit.co/luciaanobruno@gmail.com" method="post">
-                    <input type="text" name="name" placeholder="seu nome ou nome da empresa" required>
-                    <input type="email" name="email" id="" placeholder="seu email" required>
-                    <textarea name="textarea" placeholder="sua mensagem" required></textarea>
-                    <input type="hidden" name="_next" value="http://lucianobruno1.github.io/portfolio/pages/obrigado.html">
-                    <div class="btn-enviar">
-                        <input type="submit" value="ENVIAR">
-                    </div><!--BTN-ENVIAR-->
-
-                </form>
-            </div><!--INTERFACE-->
-
-        </section><!--FORMULARIO-->
-    </main>
-    <footer>
+<main>
+    <section class="topo-do-site" id="topo-do-site">
         <div class="interface">
-            <div class="line-footer">
-                <div class="flex">
-                    <div class="logo-footer">
-                        <img width="150vw" src="../images/logo_transparent.png" alt="logomarca luciano bruno">
-                    </div><!--LOGOFOOTER-->
+            <div class="flex">
+                <div class="txt-topo-site">
+                    <h1>LUCIANO BRUNO - FULL STACK DEVELOPER<span>.</span></h1>
+                    <p> Sou um desenvolvedor Full Stack que sempre tenta criar experiências digitais incríveis.
+                        Sou comprometido com código limpo, trabalho em equipe e gestão de tempo. Explore meu
+                        portfólio para descobrir alguns projetos feitos de forma individual e em grupo, comprovando
+                        minhas habilidades e comprometimento com o desenvolvimento de sistemas, sejam eles robustos
+                        ou simples.</p>
+                    <div class="btn-contato">
+                        <a href="#formulario">
+                            <button>Entre em contato</button>
+                        </a>
+                    </div>
+                </div><!--txt-topo-site-->
 
+                <div class="img-topo-site">
+                    <img width="300px" src="../images/eu.jpg" alt="">
+                </div><!--img-topo-site-->
+            </div><!--flex-->
+        </div><!--interface-->
+    </section><!--topo-do-site-->
+
+
+    <section class="especialidades" id="especialidades">
+        <div class="interface">
+            <h2 class="titulo">MINHAS <br> ESPECIALIDADES.</h2>
+            <div class="flex">
+                <div class="especialidades-box">
+                    <img width="100px" src="../images/java.png" alt="Logo java">
+                    <h3>JAVA</h3>
+                    <p>O Java é uma linguagem de programação versátil e orientada a objetos, conhecida por sua
+                        portabilidade, permitindo a execução de código em diferentes sistemas.
+                        Amplamente utilizado no desenvolvimento de aplicativos corporativos, móveis e web, Java
+                        oferece robustez e flexibilidade.</p>
+                </div><!--ESPECIALIDADES--BOX-->
+                <div class="especialidades-box">
+                    <img width="100px" src="../images/c-sharp.png" alt="Logo csharp">
+                    <h3>C#</h3>
+                    <p>O C# é uma linguagem de programação desenvolvida pela Microsoft, destacando-se no
+                        desenvolvimento de aplicativos Windows e aplicações web. Suportando programação orientada a
+                        objetos e integrando-se ao ecossistema .NET, C# oferece poder e eficiência no
+                        desenvolvimento de software.</p>
+                </div><!--ESPECIALIDADES--BOX-->
+                <div class="especialidades-box">
+                    <img width="100px" src="../images/sql.png" alt="Logo sql">
+                    <h3>SQL</h3>
+                    <p>SQL (Structured Query Language) é uma linguagem de programação projetada para gerenciar e
+                        manipular bancos de dados relacionais. Amplamente utilizada em sistemas de gerenciamento de
+                        banco de dados (SGBD), como MySQL, PostgreSQL e Microsoft SQL Server, o SQL é fundamental
+                        para interagir com dados de maneira eficiente.</p>
+                </div><!--ESPECIALIDADES--BOX-->
+                <div class="especialidades-box">
+                    <img width="100px" src="../images/html.png" alt="Logo html">
+                    <h3>HTML</h3>
+                    <p>O HTML5 é uma linguagem de marcação essencial para a construção de páginas web modernas.
+                        Introduzindo elementos e recursos avançados, como áudio, vídeo e gráficos, o HTML5
+                        possibilita a criação de aplicações web mais interativas e responsivas.</p>
+                </div><!--ESPECIALIDADES--BOX-->
+                <div class="especialidades-box">
+                    <img width="100px" src="../images/css-3.png" alt="Logo css">
+                    <h3>CSS</h3>
+                    <p>O CSS3, por sua vez, é a ferramenta para estilizar documentos HTML. Com recursos avançados de
+                        design, como transições, animações e sombras, o CSS3 é crucial para a criação de layouts
+                        flexíveis e responsivos, proporcionando uma experiência visual aprimorada.</p>
+                </div><!--ESPECIALIDADES--BOX-->
+                <div class="especialidades-box">
+                    <img width="100px" src="../images/git.png" alt="Logo git">
+                    <h3>GIT</h3>
+                    <p>O Git, um sistema de controle de versão distribuído, revoluciona a gestão de código-fonte.
+                        Facilitando o rastreamento de alterações em projetos de software, Git promove a colaboração
+                        eficiente entre desenvolvedores.</p>
+                </div><!--ESPECIALIDADES--BOX-->
+                <div class="especialidades-box">
+                    <img width="100px" src="../images/github.png" alt="Logo github">
+                    <h3>GITHUB</h3>
+                    <p>O GitHub, como plataforma de hospedagem para repositórios Git, desempenha um papel crucial na
+                        colaboração e na gestão de projetos. Amplamente utilizado para projetos de código aberto,
+                        GitHub é essencial para revisão de código e controle de versão.</p>
+                </div><!--ESPECIALIDADES--BOX-->
+                <div class="especialidades-box">
+                    <img width="100px" src="../images/python.png" alt="Logo python">
+                    <h3>PYTHON</h3>
+                    <p>O Python destaca-se como uma linguagem de programação de alto nível e fácil leitura. Ampla em
+                        seu uso, seja no desenvolvimento web, automação, análise de dados ou inteligência
+                        artificial, Python prioriza a legibilidade do código e a produtividade do desenvolvedor.</p>
+                </div><!--ESPECIALIDADES--BOX-->
+                <div class="especialidades-box">
+                    <img width="100px" src="../images/django.png" alt="Logo django">
+                    <h3>DJANGO</h3>
+                    <p>Django é um framework web de alto nível para desenvolvimento em Python,
+                        que facilita a criação rápida e segura de aplicações web robustas e escaláveis.
+                        Ele segue o padrão Model-View-Template (MVT) e oferece uma série de recursos
+                        integrados, como sistema de autenticação, painel administrativo, ORM para
+                        manipulação de banco de dados, roteamento de URLs e proteção contra
+                        vulnerabilidades comuns. Seu design “batteries-included” permite acelerar
+                        o desenvolvimento, focando na reutilização de componentes e na simplicidade,
+                        sendo amplamente utilizado em projetos de diferentes portes.</p>
+                </div><!--ESPECIALIDADES--BOX-->
+            </div><!--FLEX-->
+        </div><!--INTERFACE-->
+    </section><!--ESPECIALIDADES-->
+
+    <section class="sobre" id="sobre">
+        <div class="interface">
+            <div class="flex">
+                <div class="img-sobre">
+                    <img width="300px" src="../images/eu.jpg" alt="">
+                </div>
+                <div class="txt-sobre">
+                    <h2>Olá, sou <span> Luciano Bruno!</span></h2>
+                    <p>Me chamo Luciano, sou um desenvolvedor full stack, com experiência
+                        profissional em desenvolvimento web utilizando tecnologias como Python,
+                        HTML, CSS, JavaScript, postgres, entre outras. Atuo na criação de aplicações
+                        completas, do backend ao frontend, com foco em soluções funcionais,
+                        responsivas e bem estruturadas. Além disso, tenho experiência em projetos
+                        na área de ciência de dados e aprendizado de máquina, aplicando técnicas
+                        de análise, pré-processamento e modelagem preditiva em diferentes contextos.
+                        Estou sempre em busca de novos desafios que ampliem meu conhecimento e
+                        contribuam para a construção de soluções tecnológicas de impacto.
+                    </p>
+                    <p>Um dos meus maiores sonhos é poder usar a tecnologia para construir ferramentas que possam mudar
+                        para melhor a vida das pessoas, impactando no dia a dia de forma a tornar
+                        suas rotinas muito mais agradáveis. A programação é uma fonte infinita de possibilidades que
+                        podem ser exploradas das mais diversas formas possíveis, eu quero utilizá-la para
+                        transformar o mundo em um lugar melhor!
+                    </p>
                     <div class="btn-social">
                         <a target="_blank"
-                            href="https://www.instagram.com/luciaano_bruno?igsh=MXN0bDNnd2txamd1dA=="><button><i
-                                    class="bi bi-instagram"></i></button></a>
-                        <a target="_blank" href="https://github.com/LucianoBruno1"><button><i
-                                    class="bi bi-github"></i></button></a>
-                        <a target="_blank" href="https://www.linkedin.com/in/luciano-bruno-8b2730235/"><button><i
-                                    class="bi bi-linkedin"></i></button></a>
-                    </div><!--BTNSOCIAL-->
-                </div><!--FLEX-->
-            </div><!--LINEFOOTER-->
-            <div class="line-footer borda">
-                <p><i class="bi bi-envelope-fill"></i><a
-                        href="mailto:luciaanobruno@gmail.com">luciaanobruno@gmail.com</a></p>
-            </div><!--LINEFOOTER-->
+                           href="https://www.instagram.com/luciaano_bruno?igsh=MXN0bDNnd2txamd1dA==">
+                            <button><i
+                                    class="bi bi-instagram"></i></button>
+                        </a>
+                        <a target="_blank" href="https://github.com/LucianoBruno1">
+                            <button><i
+                                    class="bi bi-github"></i></button>
+                        </a>
+                        <a target="_blank" href="https://www.linkedin.com/in/luciano-bruno-8b2730235/">
+                            <button><i
+                                    class="bi bi-linkedin"></i></button>
+                        </a>
+                    </div>
+                </div>
+            </div><!--FLEX-->
         </div><!--INTERFACE-->
-    </footer>
-    <script src="../script/script.js" defer></script>
-    
+    </section><!--SOBRE-->
+
+    <section class="portfolio" id="portfolio">
+        <div class="interface">
+            <h2 class="titulo">MEUS <span>PROJETOS</span></h2>
+            <div class="flex">
+
+                <!------------------------------- PROJETO 1 ------------------------->
+                <div class="projeto-card">
+                    <div class="projeto-icone">
+                        <img src="../images/traveldiary.png" alt="Ícone Travel Diary">
+                    </div>
+                    <h3 class="projeto-titulo">TRAVEL DIARY</h3>
+                    <p class="projeto-descricao">
+                        AO Travel Diary é um aplicativo para viajantes que desejam documentar suas
+                        experiências de forma prática e interativa. Com uma interface intuitiva e
+                        recursos personalizados, o aplicativo permite que os usuários criem diários
+                        de viagem detalhados, adicionando informações sobre os lugares visitados, suas
+                        coordenadas geográficas e muito mais.
+                    </p>
+                    <div class="projeto-links">
+                        <a href="https://github.com/LucianoBruno1/Travel-Diary-pdmv" class="projeto-botao"
+                           target="_blank" rel="noopener noreferrer">
+                            Ver no GitHub
+                        </a>
+                    </div>
+                </div>
+                <!------------------------------- PROJETO 2 ------------------------->
+
+                <div class="projeto-card">
+                    <div class="projeto-icone">
+                        <img src="../images/monitoramentoambiental.png" alt="Ícone projetosema">
+                    </div>
+                    <h3 class="projeto-titulo">MONITORAMENTO AMBIENTAL</h3>
+                    <p class="projeto-descricao">
+                        Software voltado para o acompanhamento eficiente de licenças e condicionantes
+                        ambientais, garantindo o cumprimento das exigências legais. O sistema permite
+                        o cadastro detalhado de licenças e suas condicionantes, monitorando prazos e
+                        status de validade em tempo real. Além disso, conta com envio automático de
+                        alertas para antecipar possíveis descumprimentos, facilitando a gestão ambiental
+                        e mitigando riscos regulatórios. Solicitado pela prefeitura de Paulista, Pernambuco.
+                    </p>
+                    <div class="projeto-links">
+                        <a class="projeto-botao" target="_blank" rel="noopener noreferrer">
+                            REPOSITÓRIO PRIVADO
+                        </a>
+                    </div>
+                </div>
+                <!------------------------------- PROJETO 3 ------------------------->
+
+                <div class="projeto-card">
+                    <div class="projeto-icone">
+                        <img src="../images/chatweb.png" alt="Ícone chat web">
+                    </div>
+                    <h3 class="projeto-titulo">CHAT WEB</h3>
+                    <p class="projeto-descricao">
+                        API para uma aplicação de chat web em tempo real,
+                        utilizando a linguagem Python com o framework Flask.
+                        A aplicação conta com uma interface desenvolvida em HTML,
+                        CSS e JavaScript, oferecendo uma experiência de usuário fluida e interativa.
+                    </p>
+                    <div class="projeto-links">
+                        <a href="https://github.com/LucianoBruno1/API-SD" class="projeto-botao" target="_blank"
+                           rel="noopener noreferrer">
+                            Ver no GitHub
+                        </a>
+                    </div>
+                </div>
+                <!------------------------------- PROJETO 4 ------------------------->
+
+                <div class="projeto-card">
+                    <div class="projeto-icone">
+                        <img src="../images/aprendermais.png" alt="Ícone aprendermais">
+                    </div>
+                    <h3 class="projeto-titulo">APRENDER MAIS</h3>
+                    <p class="projeto-descricao">
+                        O Aprender Mais é uma aplicação web desenvolvida com o objetivo de
+                        democratizar o acesso ao conhecimento por meio de uma plataforma
+                        gratuita de educação online. O sistema permite a publicação e o
+                        gerenciamento de aulas por administradores voluntários, abrangendo
+                        diversas áreas do saber. Com foco na usabilidade,
+                        a plataforma busca facilitar o aprendizado autônomo, oferecendo conteúdos
+                        organizados e acessíveis a qualquer pessoa interessada em expandir seus conhecimentos.
+                    </p>
+                    <div class="projeto-links">
+                        <a href="https://github.com/LucianoBruno1/AprenderMais-BackEnd" class="projeto-botao"
+                           target="_blank" rel="noopener noreferrer">
+                            Ver no GitHub
+                        </a>
+                    </div>
+                </div>
+                <!------------------------------- PROJETO 5 ------------------------->
+
+                <div class="projeto-card">
+                    <div class="projeto-icone">
+                        <img src="../images/apiprodutos.png" alt="Ícone api produtos">
+                    </div>
+                    <h3 class="projeto-titulo">API DE PRODUTOS</h3>
+                    <p class="projeto-descricao">
+                        API RESTful desenvolvida com Java e Spring Boot, voltada para a consolidação
+                        de conhecimentos em desenvolvimento backend. O projeto segue as boas práticas
+                        de arquitetura REST, com endpoints organizados para operações de CRUD, tratamento
+                        de exceções, validação de dados e persistência com JPA e banco de dados relacional.
+                        Trata-se de uma aplicação simples, mas estruturada, ideal para estudos e experimentações
+                        com serviços web modernos.
+                    </p>
+                    <div class="projeto-links">
+                        <a href="https://github.com/LucianoBruno1/API_Produtos_SpringBoot" class="projeto-botao"
+                           target="_blank" rel="noopener noreferrer">
+                            Ver no GitHub
+                        </a>
+                    </div>
+                </div>
+                <!------------------------------- PROJETO 6 ------------------------->
+
+                <div class="projeto-card">
+                    <div class="projeto-icone">
+                        <img src="../images/cinemaifpe.png" alt="Ícone cinema ifpe">
+                    </div>
+                    <h3 class="projeto-titulo">CINEMA IFPE</h3>
+                    <p class="projeto-descricao">
+                        O CINEMA IFPE é um sistema desenvolvido para gerenciar
+                        de forma eficiente a bilheteria de um cinema, oferecendo uma
+                        experiência prática e intuitiva aos usuários. A aplicação permite
+                        a compra de bilhetes, consulta de filmes em exibição e lançamentos,
+                        verificação de poltronas disponíveis em tempo real, além da
+                        aquisição de lanches. Após a finalização da compra, os ingressos
+                        são automaticamente enviados por e-mail, garantindo conveniência
+                        e segurança no acesso às sessões.
+                    </p>
+                    <div class="projeto-links">
+                        <a href="https://github.com/LucianoBruno1/CinemaIFPE" class="projeto-botao" target="_blank"
+                           rel="noopener noreferrer">
+                            Ver no GitHub
+                        </a>
+                    </div>
+                </div>
+                <!------------------------------- PROJETO 7 ------------------------->
+
+                <div class="projeto-card">
+                    <div class="projeto-icone">
+                        <img src="../images/tiposdechuva.png" alt="Ícone tipos de chuva">
+                    </div>
+                    <h3 class="projeto-titulo">PREVISÃO DE TIPOS DE CHUVA</h3>
+                    <p class="projeto-descricao">
+                        Projeto desenvolvido com foco na classificação automática de
+                        tipos de chuva a partir de dados meteorológicos, utilizando a
+                        base Weather Type Classification do Kaggle. Foram aplicados algoritmos
+                        de machine learning, como Random Forest, KNN e Regressão Logística,
+                        para prever padrões de precipitação e apoiar decisões em setores
+                        como o agrícola. O modelo com melhor desempenho (Random Forest)
+                        alcançou acurácia superior a 91%.
+                    </p>
+                    <div class="projeto-links">
+                        <a href="https://github.com/LucianoBruno1/Projeto_Mineracao_de_Dados?tab=readme-ov-file"
+                           class="projeto-botao" target="_blank" rel="noopener noreferrer">
+                            Ver no GitHub
+                        </a>
+                    </div>
+                </div>
+                <!------------------------------- PROJETO 8 ------------------------->
+
+                <div class="projeto-card">
+                    <div class="projeto-icone">
+                        <img src="../images/parkinson.png" alt="Ícone tipos de chuva">
+                    </div>
+                    <h3 class="projeto-titulo">PREDIÇÃO DE MAL DE PARKINSON</h3>
+                    <p class="projeto-descricao">
+                        Projeto desenvolvido com foco na predição da progressão dos sintomas
+                        do Mal de Parkinson, utilizando o conjunto de dados Parkinson’s
+                        Disease MDS-UPDRS do Kaggle. Foram aplicadas técnicas de aprendizado
+                        de máquina para modelar e prever os escores das escalas clínicas
+                        UPDRS, com o objetivo de contribuir para o monitoramento da evolução
+                        da doença. O projeto envolveu etapas de pré-processamento, seleção
+                        de atributos e avaliação de modelos preditivos.
+                    </p>
+                    <div class="projeto-links">
+                        <a href="https://github.com/LucianoBruno1/ProjetoAM" class="projeto-botao" target="_blank"
+                           rel="noopener noreferrer">
+                            Ver no GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="formulario" id="formulario">
+        <div class="interface">
+            <h2 class="titulo">FALA COMIGO</h2>
+
+            <form action="https://formsubmit.co/luciaanobruno@gmail.com" method="post">
+                <input type="text" name="name" placeholder="seu nome ou nome da empresa" required>
+                <input type="email" name="email" id="" placeholder="seu email" required>
+                <textarea name="textarea" placeholder="sua mensagem" required></textarea>
+                <input type="hidden" name="_next" value="http://lucianobruno1.github.io/portfolio/pages/obrigado.html">
+                <div class="btn-enviar">
+                    <input type="submit" value="ENVIAR">
+                </div><!--BTN-ENVIAR-->
+
+            </form>
+        </div><!--INTERFACE-->
+
+    </section><!--FORMULARIO-->
+</main>
+<footer>
+    <div class="interface">
+        <div class="line-footer">
+            <div class="flex">
+                <div class="logo-footer">
+                    <img width="150vw" src="../images/logo_transparent.png" alt="logomarca luciano bruno">
+                </div><!--LOGOFOOTER-->
+
+                <div class="btn-social">
+                    <a target="_blank"
+                       href="https://www.instagram.com/luciaano_bruno?igsh=MXN0bDNnd2txamd1dA==">
+                        <button><i
+                                class="bi bi-instagram"></i></button>
+                    </a>
+                    <a target="_blank" href="https://github.com/LucianoBruno1">
+                        <button><i
+                                class="bi bi-github"></i></button>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/luciano-bruno-8b2730235/">
+                        <button><i
+                                class="bi bi-linkedin"></i></button>
+                    </a>
+                </div><!--BTNSOCIAL-->
+            </div><!--FLEX-->
+        </div><!--LINEFOOTER-->
+        <div class="line-footer borda">
+            <p><i class="bi bi-envelope-fill"></i><a
+                    href="mailto:luciaanobruno@gmail.com">luciaanobruno@gmail.com</a></p>
+        </div><!--LINEFOOTER-->
+    </div><!--INTERFACE-->
+</footer>
+<script src="../script/script.js" defer></script>
+
 </body>
 
 </html>
