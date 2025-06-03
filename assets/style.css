@@ -66,6 +66,21 @@ header nav.nav-header ul li{
     transition: .2s;
 }
 
+/*ESTILO DO SELETOR DE LINGUAGEM*/
+.language-selector {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: white;
+  z-index: 9999;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+
 /* ESTILO DO MENU LATERAL */
 
 
