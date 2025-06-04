@@ -40,7 +40,7 @@ let currentLang = 'pt';  // idioma padrão
 
 // Função para carregar o JSON de traduções
 async function loadTranslations() {
-  const response = await fetch('../json/translations.json'); // ajuste o caminho
+  const response = await fetch('../json/translations.json');
   translations = await response.json();
   applyTranslations();
 }
@@ -77,7 +77,6 @@ function changeLanguage(lang) {
   }
 }
 
-// Exemplo: criar um seletor simples para trocar idioma
 function createLanguageSelector() {
   const selector = document.createElement('select');
   selector.classList.add('language-selector');
