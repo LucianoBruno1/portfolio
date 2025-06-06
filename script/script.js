@@ -34,18 +34,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 let translations = {};
-let currentLang = 'pt';  // idioma padrão
+let currentLang = 'pt';
 
-
-
-// Função para carregar o JSON de traduções
 async function loadTranslations() {
   const response = await fetch('../json/translations.json');
   translations = await response.json();
   applyTranslations();
 }
 
-// Função que aplica as traduções na página
 function applyTranslations() {
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.getAttribute('data-i18n');
@@ -69,7 +65,6 @@ function applyTranslations() {
   });
 }
 
-// Função para mudar o idioma
 function changeLanguage(lang) {
   if (translations[lang]) {
     currentLang = lang;
@@ -89,7 +84,6 @@ function createLanguageSelector() {
   document.body.prepend(selector); 
 }
 
-// Inicializa tudo
 window.addEventListener('DOMContentLoaded', () => {
   loadTranslations();
   createLanguageSelector();
