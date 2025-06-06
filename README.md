@@ -1,5 +1,5 @@
 <h1>PORTFÓLIO</h1>
-<img src="http://img.shields.io/static/v1?label=STATUS&message=%20EM_DESENVOLVIMENTO&color=yellow&style=for-the-badge"/>
+<img src="http://img.shields.io/static/v1?label=STATUS&message=%20CONCLUIDO&color=GREEN&style=for-the-badge"/>
 <span>Tecnologias utilizadas:</span>
 
 <ul>
