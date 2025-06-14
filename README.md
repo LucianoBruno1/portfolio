@@ -1,6 +1,6 @@
-<h1>PORTFÓLIO</h1>
-<img src="http://img.shields.io/static/v1?label=STATUS&message=%20CONCLUIDO&color=GREEN&style=for-the-badge"/>
-<span>Tecnologias utilizadas:</span>
+<h1>PORTFOLIO</h1>
+<img src="http://img.shields.io/static/v1?label=STATUS&message=COMPLETED&color=GREEN&style=for-the-badge"/>
+<span>Technologies in use:</span>
 
 <ul>
   <li>HTML</li>
@@ -8,5 +8,4 @@
   <li>JavaScript</li>
 </ul>
 
-
-link para acessar a versão beta: https://lucianobruno1.github.io/portfolio/pages/index.html
+Link to access the final version: https://lucianobruno1.github.io/portfolio/pages/index.html
